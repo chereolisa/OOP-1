@@ -15,17 +15,22 @@ It also helps to keep track of the beer inventory and customers.
 A file containing the Class Diagram has been attached
 
 Class: Beer
+
 Attributes:
   - brand (String)
   - serialNumber (integer)
+    
 Methods:
   - sellBeer()
   - checkStock()
 
+
 Class: Customer
+
 Attributes:
   - name (String)
   - age (integer)
+    
 Methods:
   - registeredCustomers()
   - register()
